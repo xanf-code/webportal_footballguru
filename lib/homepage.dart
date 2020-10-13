@@ -105,6 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       backgroundColor: Color(0xFF18203d),
       body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
         child: Column(
           children: [
             _buildTextField(nameController, 'Name'),

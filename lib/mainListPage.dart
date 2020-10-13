@@ -23,6 +23,7 @@ class _EntryPageState extends State<EntryPage> {
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: ListView(
+          physics: BouncingScrollPhysics(),
           children: [
             GestureDetector(
               onTap: () {
