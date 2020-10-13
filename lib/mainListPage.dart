@@ -2,8 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:webportal_footballguru/homepage.dart';
 
-import 'List/listScreen.dart';
-
 class EntryPage extends StatefulWidget {
   @override
   _EntryPageState createState() => _EntryPageState();
